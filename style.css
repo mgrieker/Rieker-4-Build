@@ -1,0 +1,7 @@
+/* CSS written by Molly Rieker */
+
+/* GLOBAL STYLES (MOBILE FIRST) */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
