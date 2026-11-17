@@ -11,13 +11,13 @@ nav ul {
     display:flex;
     justify-content: space-evenly;
     list-style: none;
-    color: black;
 }
 
 nav a {
     padding: 1rem;
     text-decoration: none;
     background-color: azure;
+    color: black;
 }
 
 .card-row {
