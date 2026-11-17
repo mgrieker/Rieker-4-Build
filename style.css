@@ -4,19 +4,20 @@
 body {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: azure;
+    background-color: mediumaquamarine;
 }
 
 nav ul {
     display:flex;
     justify-content: space-evenly;
     list-style: none;
+    color: black;
 }
 
 nav a {
     padding: 1rem;
     text-decoration: none;
-    background-color: mediumaquamarine;
+    background-color: azure;
 }
 
 .card-row {
@@ -65,6 +66,7 @@ nav a {
     }
 
     .card-row {
+        grid-column:1/4;
         flex-direction: row;
         background-color: plum;
     }
