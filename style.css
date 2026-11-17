@@ -15,6 +15,8 @@ nav ul {
 
 nav a {
     padding: 1rem;
+    text-decoration: none;
+    background-color: mediumaquamarine;
 }
 
 .card-row {
@@ -22,6 +24,19 @@ nav a {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
+    background-color: darkseagreen;
+}
+
+#raptor > section{
+    background-color: khaki;
+}
+
+#trike > section{
+    background-color: lavender;
+}
+
+#rex > section{
+    background-color: lightcoral;
 }
 
 @media screen and (min-width:600px){
@@ -29,15 +44,28 @@ nav a {
         grid-template-columns: 1fr 1fr;
         background-color: blanchedalmond;
     }
+
+    header, nav, footer {
+        grid-column: 1/3;
+    }
+
+    .card-row {
+        background-color: peachpuff;
+    }
 }
 
-@media screen and (min-width:800px){
+@media screen and (min-width:1200px){
     body{
         grid-template-columns: 1fr 1fr 1fr;
         background-color: pink;
     }
 
+    header, nav, footer {
+        grid-column: 1/4;
+    }
+
     .card-row {
         flex-direction: row;
+        background-color: plum;
     }
 }
