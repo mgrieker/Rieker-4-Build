@@ -3,12 +3,8 @@
 /* GLOBAL STYLES (MOBILE FIRST) */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: blanchedalmond;
-}
-
-header, nav, footer {
-    grid-column: 1/3;
+    grid-template-columns: 1fr;
+    background-color: azure;
 }
 
 nav ul {
@@ -23,18 +19,18 @@ nav a {
 
 .card-row {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
 @media screen and (min-width:600px){
     body{
-        grid-template-columns: 1fr;
-        background-color: azure;
+        grid-template-columns: 1fr 1fr;
+        background-color: blanchedalmond;
     }
 
     .card-row {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
