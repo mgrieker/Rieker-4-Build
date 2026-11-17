@@ -3,5 +3,14 @@
 /* GLOBAL STYLES (MOBILE FIRST) */
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+nav ul {
+    display:flex;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
 }
